@@ -1,0 +1,1 @@
+web: python manage.py collectstatic --no-input; gunicorn ajaxlearning.wsgi --log-file - --log-level debug
